@@ -1,4 +1,4 @@
-# Support for [App Name]
+# Support for My Lyrics
 
 Welcome to the support page for **[App Name]**. If you have any questions, issues, or need assistance, please contact us at:
 
