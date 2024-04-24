@@ -28,10 +28,10 @@ A book in JSON format has a specific structure. Here's an example layout:
   "songs": [
     {
       "title": "Title of first song",
-      "index": 1,
+      "number": 1,
       "verses": [
         {
-          "index": 1,
+          "number": 1,
           "sentences": [
             "First sentence of the first verse",
             "Second sentence of the first verse"
@@ -44,12 +44,12 @@ A book in JSON format has a specific structure. Here's an example layout:
 ```
 
 - **Title**: The title of the book.
-- **Cover Image**: A base64-encoded image representing the book's cover.
+- **Cover Image**: A base64-encoded image representing the book's cover. Optional, but highly recommended.
 - **Songs**: A list of songs within the book.
   - **Title**: The title of each song.
-  - **Index**: The song's number.
+  - **Number**: The song's number. Optional.
   - **Verses**: The verses contained in each song.
-    - **Index**: The verse's position within the song.
+    - **Number**: The verse's number within the song. Optional.
     - **Sentences**: An array of sentences forming the verse.
 
 ### Example JSON File
