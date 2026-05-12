@@ -6,6 +6,29 @@ Welcome to the support page for **My Lyrics**. This guide provides instructions 
 
 We aim to respond to all inquiries within 24-48 hours. Thank you for using My Lyrics!
 
+## Live Web Demo
+
+Open the hosted web demo from the support site:
+
+- [My Lyrics live web demo](./web-demo/)
+
+The demo page embeds the Flutter web build in an iPhone-style frame and links to
+the full-screen app under `web-demo/app/`.
+
+To rebuild the demo bundle in this repository from the Flutter app checkout:
+
+```bash
+./scripts/build_web_demo.sh
+```
+
+Preview it locally with the same path shape used by GitHub Pages:
+
+```bash
+./scripts/preview_web_demo.sh
+```
+
+Then open `http://127.0.0.1:5179/my-lyrics/web-demo/`.
+
 ## What is a Library File?
 A library file is a compressed file with the extension `.zip` or `.books`. It contains multiple book files, each stored as gzipped JSON files. For example, a library file might include:
 

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Open Songbook web demo with the Flutter app running inside an iPhone-style frame."
+    />
+    <title>Open Songbook Web Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./demo.js" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Live Flutter web demo</p>
+          <h1 id="page-title">Open Songbook</h1>
+          <p class="lede">
+            A focused songbook reader for rehearsals, services, and small group
+            playing. Load custom books, search quickly, mark favorites, and keep
+            lyrics readable on stage.
+          </p>
+
+          <div class="action-row" aria-label="Demo actions">
+            <a class="primary-link" id="open-demo-link" href="app/?demo=true">
+              Open demo full screen
+            </a>
+            <a class="secondary-link" href="#how-it-works">How the demo works</a>
+          </div>
+
+          <dl class="demo-facts" aria-label="Open Songbook highlights">
+            <div>
+              <dt>Custom books</dt>
+              <dd>Bring JSON, ZIP, and packaged songbook content into one library.</dd>
+            </div>
+            <div>
+              <dt>Fast navigation</dt>
+              <dd>Browse, search, favorite, and adjust type size while staying in flow.</dd>
+            </div>
+            <div>
+              <dt>Static deployment</dt>
+              <dd>The page and Flutter bundle ship as plain files under one dist folder.</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="device-area" aria-label="Open Songbook app preview">
+          <div class="phone-frame" data-frame-state="loading">
+            <div class="phone-hardware">
+              <div class="phone-buttons" aria-hidden="true">
+                <span class="button button-left-top"></span>
+                <span class="button button-left-bottom"></span>
+                <span class="button button-right"></span>
+              </div>
+              <div class="phone-screen">
+                <div class="dynamic-island" aria-hidden="true"></div>
+                <div class="iframe-loading" id="iframe-loading" role="status">
+                  <span class="loader"></span>
+                  <span>Loading Open Songbook demo</span>
+                </div>
+                <iframe
+                  id="app-demo-frame"
+                  src="app/?demo=true"
+                  title="Open Songbook app demo"
+                  loading="eager"
+                  allow="clipboard-read; clipboard-write"
+                >
+                  The embedded demo cannot be displayed here.
+                  <a href="app/?demo=true">Open the demo full screen</a>.
+                </iframe>
+              </div>
+            </div>
+          </div>
+          <p class="frame-caption">
+            The phone chrome is part of this web shell. The screen inside is the
+            real Flutter web build served from <code>web-demo/app/</code>.
+          </p>
+        </div>
+      </section>
+
+      <section class="details" id="how-it-works" aria-labelledby="details-title">
+        <div class="section-heading">
+          <p class="eyebrow">Deployment shape</p>
+          <h2 id="details-title">One static site, two runtime layers</h2>
+        </div>
+
+        <div class="detail-grid">
+          <article>
+            <h3>Outer site</h3>
+            <p>
+              The explanatory page is static HTML, CSS, and JavaScript so the
+              product story remains accessible and quick to load.
+            </p>
+          </article>
+          <article>
+            <h3>Embedded app</h3>
+            <p>
+              Flutter owns the document inside the iframe. Its bundle is built
+              with the GitHub Pages base path and copied to <code>web-demo/app/</code>.
+            </p>
+          </article>
+          <article>
+            <h3>Demo limits</h3>
+            <p>
+              Browser upload support depends on the later parser and file-picker
+              tasks. This shell is ready for that app behavior when it lands.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

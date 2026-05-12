@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My Lyrics support page and live web demo.">
+  <title>My Lyrics Support</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f2933;
+      --muted: #52606d;
+      --line: #d9e2ec;
+      --surface: #ffffff;
+      --paper: #f7f9fb;
+      --accent: #087f5b;
+      --accent-ink: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 72px;
+    }
+
+    h1 {
+      max-width: 12ch;
+      margin: 0 0 18px;
+      font-size: clamp(2.35rem, 8vw, 4.25rem);
+      line-height: 0.98;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 42px 0 12px;
+      font-size: 1.45rem;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .lede {
+      max-width: 68ch;
+      color: var(--muted);
+      font-size: 1.12rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 28px 0 36px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--ink);
+      padding: 0 18px;
+      text-decoration: none;
+    }
+
+    .button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: var(--accent-ink);
+    }
+
+    .support-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      padding: 24px;
+    }
+
+    code {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--paper);
+      padding: 0.08rem 0.28rem;
+      font: 0.92em ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p><strong>My Lyrics support</strong></p>
+    <h1>Build and test songbook files</h1>
+    <p class="lede">
+      My Lyrics renders custom songbook files on iPhone and iPad. This page
+      explains the supported file format and links to a live browser demo.
+    </p>
+
+    <div class="actions">
+      <a class="button primary" href="web-demo/">Open live web demo</a>
+      <a class="button" href="README.md">Read file format guide</a>
+      <a class="button" href="privacy_policy.md">Privacy policy</a>
+    </div>
+
+    <section class="support-card">
+      <h2>Book files</h2>
+      <p>
+        A library file uses the <code>.zip</code> or <code>.books</code>
+        extension and contains one or more JSON songbooks. Plain JSON book files
+        are also supported.
+      </p>
+      <p>
+        See the <a href="README.md">full support guide</a> and the bundled
+        <a href="lorem_ipsum_songbook.json">example songbook JSON</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Live web demo</h2>
+      <p>
+        The demo page embeds the Flutter web build in an iPhone-style frame and
+        can also be opened full screen. It is intended for quick browser testing
+        and public documentation, while the source app remains in the Flutter
+        repository.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        For support, email <a href="mailto:laurelltm@gmail.com">laurelltm@gmail.com</a>.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
