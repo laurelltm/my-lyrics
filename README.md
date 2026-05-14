@@ -3,6 +3,7 @@
 Welcome to the support page for **My Lyrics**. This guide provides instructions on creating and using book files with the My Lyrics app. If you have any questions, issues, or need assistance, please contact us:
 
 - **Email**: [laurelltm@gmail.com](mailto:laurelltm@gmail.com)
+- **Privacy Policy**: [privacy-policy](./privacy-policy/)
 
 We aim to respond to all inquiries within 24-48 hours. Thank you for using My Lyrics!
 
