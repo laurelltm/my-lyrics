@@ -2,6 +2,10 @@
 
 [Vertailuun](README.md) · Rauhallisin lukukokemus · Ei toteutettu
 
+![2. Laulukirja — toimitettu julkaisu — etusivu, web-demo, ohje ja tietosuoja](images/02-laulukirja.png)
+
+[Avaa kuva täysikokoisena](images/02-laulukirja.png) · [Vertaa kuvia GitHub Pagesissa](https://laurelltm.github.io/my-lyrics/design-previews/)
+
 ## Idea
 
 Sivusto rakentuu hyvän painetun laulukirjan tavoin: kansi, sisällys ja selkeät luvut. Suuri typografia ja harkittu tyhjä tila korvaavat tuotekortit. Jokaisen sivun yläreunassa on pieni luvun tunnus, kuten “02 / Kokeile”. Tämä numerointi kuuluu sivuston rakenteeseen eikä muuta laulujen numeroita sovelluksessa.

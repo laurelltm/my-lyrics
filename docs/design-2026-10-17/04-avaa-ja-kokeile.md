@@ -2,6 +2,10 @@
 
 [Vertailuun](README.md) · Nopein tie web-sovellukseen · Ei toteutettu
 
+![4. Avaa ja kokeile — demo pääosassa — etusivu, web-demo, ohje ja tietosuoja](images/04-avaa-ja-kokeile.png)
+
+[Avaa kuva täysikokoisena](images/04-avaa-ja-kokeile.png) · [Vertaa kuvia GitHub Pagesissa](https://laurelltm.github.io/my-lyrics/design-previews/)
+
 ## Idea
 
 Kävijä ymmärtää My Lyricsin kokeilemalla sitä. Etusivu on leveä sovelluksen näyttämö, jonka ympärillä on vain tarpeellinen esittely. Web-demon erillinen reitti säilyy, mutta etusivun “Avaa” vie samaan kokeiluun ilman uutta pitkää myyntisivua.

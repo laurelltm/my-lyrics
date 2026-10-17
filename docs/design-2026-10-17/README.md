@@ -4,6 +4,32 @@
 
 Rajaus: dokumentaatiosivuston etusivu, web-demon esittely, käyttö- ja tiedostomuoto-ohje sekä tietosuojasivu. Flutter-sovelluksen sisäistä käyttöliittymää ei muuteta näiden ehdotusten perusteella. Jokainen vaihtoehto muodostaa kokonaisen sivuston; kyse ei ole viidestä väriversiosta samasta pohjasta.
 
+## Katso ehdotukset kuvina
+
+[Avaa visuaalinen vertailugalleria GitHub Pagesissa](https://laurelltm.github.io/my-lyrics/design-previews/).
+
+Jokaisessa kuvataulussa on neljä päänäkymää: etusivu, web-demon esittely, ohjeet ja tietosuoja. Kuvat ovat kuvanluontityökalulla tehtyjä suunnitteluluonnoksia. Havainnollistavat tekstit ja sovelluksen esitykset eivät korvaa nykyisiä ohjeita tai tietosuojaselostetta. Suunnan valinta koskee sivustoa; sovelluksen sisäinen käyttöliittymä säilyy erillisenä.
+
+### 1. Sävel — sovelluksen sisarsivusto
+
+[![Neljä päänäkymää — 1. Sävel — sovelluksen sisarsivusto](images/01-savel.png)](images/01-savel.png)
+
+### 2. Laulukirja — toimitettu julkaisu
+
+[![Neljä päänäkymää — 2. Laulukirja — toimitettu julkaisu](images/02-laulukirja.png)](images/02-laulukirja.png)
+
+### 3. Työpöytä — ohjeet ja kokeilu rinnakkain
+
+[![Neljä päänäkymää — 3. Työpöytä — ohjeet ja kokeilu rinnakkain](images/03-tyopoyta.png)](images/03-tyopoyta.png)
+
+### 4. Avaa ja kokeile — demo pääosassa
+
+[![Neljä päänäkymää — 4. Avaa ja kokeile — demo pääosassa](images/04-avaa-ja-kokeile.png)](images/04-avaa-ja-kokeile.png)
+
+### 5. Selkeä polku — kevyt tukipalvelu
+
+[![Neljä päänäkymää — 5. Selkeä polku — kevyt tukipalvelu](images/05-selkea-polku.png)](images/05-selkea-polku.png)
+
 ## Valitse suunta
 
 | Vaihtoehto | Ensivaikutelma ja rakenteellinen idea | Sopii erityisesti | Työmäärä suhteessa muihin |

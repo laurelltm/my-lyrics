@@ -2,6 +2,10 @@
 
 [Vertailuun](README.md) · Suositeltu kokonaisuus · Ei toteutettu
 
+![1. Sävel — sovelluksen sisarsivusto — etusivu, web-demo, ohje ja tietosuoja](images/01-savel.png)
+
+[Avaa kuva täysikokoisena](images/01-savel.png) · [Vertaa kuvia GitHub Pagesissa](https://laurelltm.github.io/my-lyrics/design-previews/)
+
 ## Idea
 
 Sivusto tuntuu My Lyricsin luonnolliselta jatkeelta. Syvä tumma pohja, laventeli toimintaväri ja oikea sovelluskuva yhdistävät sen puhelimeen. Etusivu auttaa tutustumaan, demo auttaa kokeilemaan ja ohjeet auttavat tekemään. Sama tumma ilme ei tarkoita, että jokainen tekstialue suljetaan laatikkoon.

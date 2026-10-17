@@ -16,7 +16,7 @@ The website lives in `laurelltm/my-lyrics`. The Flutter application source lives
 
 ## Capabilities and Constraints
 
-- Five alternative designs are requested in Markdown for the website's main surfaces and web-demo introduction.
+- Five alternative designs are requested as images of all four main surfaces, hosted in a GitHub Pages gallery and embedded into the Markdown proposals. This visual format was confirmed by the user on 2026-10-17.
 - The application’s internal Library, Search, Book, Collections and Settings views are outside this design proposal. This boundary was confirmed by the user on 2026-10-17.
 - A design is to be selected before any website redesign is implemented.
 - Updating the compiled web application is a separately authorized publication task.

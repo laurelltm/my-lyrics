@@ -2,6 +2,10 @@
 
 [Vertailuun](README.md) · Vahvin kirjojen tekijälle · Ei toteutettu
 
+![3. Työpöytä — ohjeet ja kokeilu rinnakkain — etusivu, web-demo, ohje ja tietosuoja](images/03-tyopoyta.png)
+
+[Avaa kuva täysikokoisena](images/03-tyopoyta.png) · [Vertaa kuvia GitHub Pagesissa](https://laurelltm.github.io/my-lyrics/design-previews/)
+
 ## Idea
 
 Sivusto on käyttökelpoinen tukityöpöytä: navigaatio pysyy paikallaan, ohje on keskellä ja oikean reunan demo tekee esimerkin näkyväksi. Ensimmäinen näkymä sisältää oikeaa työtä, ei suurta markkinointiotsikkoa. Käyttäjä voi lukea kirjatiedoston rakenteesta ja nähdä saman esimerkkikirjan sovelluksessa.

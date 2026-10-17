@@ -2,6 +2,10 @@
 
 [Vertailuun](README.md) · Helpoin ylläpitää · Ei toteutettu
 
+![5. Selkeä polku — kevyt tukipalvelu — etusivu, web-demo, ohje ja tietosuoja](images/05-selkea-polku.png)
+
+[Avaa kuva täysikokoisena](images/05-selkea-polku.png) · [Vertaa kuvia GitHub Pagesissa](https://laurelltm.github.io/my-lyrics/design-previews/)
+
 ## Idea
 
 Sivusto vastaa ensin kysymykseen “Mitä haluat tehdä?”. Jokaiselle tehtävälle on selkeä nimetty reitti. Valkoinen pinta, jämäkkä typografia ja harvat värikorostukset tekevät siitä modernin tukipalvelun ilman korttimeren tai teknisen portaalin tuntua.

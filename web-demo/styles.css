@@ -243,13 +243,14 @@ h1 {
 }
 
 .phone-screen {
+  --app-safe-top: 56px;
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
   border: 1px solid oklch(6% 0.006 252);
   border-radius: 42px;
-  background: oklch(10% 0.01 252);
+  background: var(--surface);
   isolation: isolate;
   overscroll-behavior: contain;
 }
@@ -270,10 +271,10 @@ h1 {
 
 .phone-screen iframe {
   position: absolute;
-  inset: 0;
+  inset: var(--app-safe-top) 0 0;
   z-index: 1;
   width: 100%;
-  height: 100%;
+  height: calc(100% - var(--app-safe-top));
   border: 0;
   background: var(--surface);
   overscroll-behavior: contain;
