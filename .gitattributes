@@ -1,0 +1,2 @@
+# Flutter StandardMessageCodec output must stay byte-for-byte intact.
+web-demo/app/assets/AssetManifest.bin binary

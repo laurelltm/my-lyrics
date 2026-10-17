@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-DEFAULT_APP_REPO="${ROOT_DIR}/../opensongbook/open_songbook_3"
+DEFAULT_APP_REPO="${ROOT_DIR}/../open_songbook_3"
 APP_REPO="${1:-${OPEN_SONGBOOK_APP_REPO:-${DEFAULT_APP_REPO}}}"
 PAGES_BASE_PATH="${PAGES_BASE_PATH:-/my-lyrics/}"
 APP_BASE_HREF="${PAGES_BASE_PATH%/}/web-demo/app/"
@@ -23,6 +23,21 @@ mkdir -p "${APP_OUTPUT_DIR}"
 )
 
 cp -R "${APP_REPO}/build/web/." "${APP_OUTPUT_DIR}/"
+
+# Record the app source separately from the documentation site's revision.
+python3 - "${APP_REPO}" "${APP_OUTPUT_DIR}" <<'PY'
+import json
+from pathlib import Path
+import subprocess
+import sys
+
+source, output = sys.argv[1], Path(sys.argv[2])
+version = json.loads((output / 'version.json').read_text())['version']
+revision = subprocess.check_output(
+    ['git', '-C', source, 'rev-parse', 'HEAD'], text=True).strip()
+(output / 'build-info.json').write_text(
+    json.dumps({'version': version, 'sourceRevision': revision}, indent=2) + '\n')
+PY
 
 cat <<EOF
 
