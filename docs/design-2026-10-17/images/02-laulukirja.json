@@ -1,0 +1,12 @@
+{
+  "approved": true,
+  "approvedAt": "2026-10-17",
+  "approvedBy": "user",
+  "scope": [
+    "home",
+    "web-demo",
+    "guide",
+    "privacy"
+  ],
+  "reference": "02-laulukirja.png"
+}

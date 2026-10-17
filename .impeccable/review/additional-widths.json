@@ -1,0 +1,142 @@
+[
+  {
+    "route": "",
+    "width": 320,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 320
+  },
+  {
+    "route": "web-demo/",
+    "width": 320,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 320
+  },
+  {
+    "route": "guide/",
+    "width": 320,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 320
+  },
+  {
+    "route": "guide/files/",
+    "width": 320,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 320
+  },
+  {
+    "route": "privacy-policy/",
+    "width": 320,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 320
+  },
+  {
+    "route": "",
+    "width": 360,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 360
+  },
+  {
+    "route": "web-demo/",
+    "width": 360,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 360
+  },
+  {
+    "route": "guide/",
+    "width": 360,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 360
+  },
+  {
+    "route": "guide/files/",
+    "width": 360,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 360
+  },
+  {
+    "route": "privacy-policy/",
+    "width": 360,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 360
+  },
+  {
+    "route": "",
+    "width": 768,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 768
+  },
+  {
+    "route": "web-demo/",
+    "width": 768,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 768
+  },
+  {
+    "route": "guide/",
+    "width": 768,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 768
+  },
+  {
+    "route": "guide/files/",
+    "width": 768,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 768
+  },
+  {
+    "route": "privacy-policy/",
+    "width": 768,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 768
+  },
+  {
+    "route": "",
+    "width": 1280,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 1280
+  },
+  {
+    "route": "web-demo/",
+    "width": 1280,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 1280
+  },
+  {
+    "route": "guide/",
+    "width": 1280,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 1280
+  },
+  {
+    "route": "guide/files/",
+    "width": 1280,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 1280
+  },
+  {
+    "route": "privacy-policy/",
+    "width": 1280,
+    "fonts": "loaded",
+    "overflow": false,
+    "scrollWidth": 1280
+  }
+]

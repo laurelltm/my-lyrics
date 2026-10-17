@@ -1,115 +1,12 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Open Songbook web demo with the Flutter app running inside an iPhone-style frame."
-    />
-    <title>Open Songbook Web Demo</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <script src="./demo.js" defer></script>
-  </head>
-  <body>
-    <main class="page-shell">
-      <section class="hero" aria-labelledby="page-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Live Flutter web demo</p>
-          <h1 id="page-title">Open Songbook</h1>
-          <p class="lede">
-            A focused songbook reader for rehearsals, services, and small group
-            playing. Load custom books, search quickly, mark favorites, and keep
-            lyrics readable on stage.
-          </p>
-
-          <div class="action-row" aria-label="Demo actions">
-            <a class="primary-link" id="open-demo-link" href="app/?demo=true">
-              Open demo full screen
-            </a>
-            <a class="secondary-link" href="#how-it-works">How the demo works</a>
-          </div>
-
-          <dl class="demo-facts" aria-label="Open Songbook highlights">
-            <div>
-              <dt>Custom books</dt>
-              <dd>Bring JSON, ZIP, and packaged songbook content into one library.</dd>
-            </div>
-            <div>
-              <dt>Fast navigation</dt>
-              <dd>Browse, search, favorite, and adjust type size while staying in flow.</dd>
-            </div>
-            <div>
-              <dt>Static deployment</dt>
-              <dd>The page and Flutter bundle ship as plain files under one dist folder.</dd>
-            </div>
-          </dl>
-        </div>
-
-        <div class="device-area" aria-label="Open Songbook app preview">
-          <div class="phone-frame" data-frame-state="loading">
-            <div class="phone-hardware">
-              <div class="phone-buttons" aria-hidden="true">
-                <span class="button button-left-top"></span>
-                <span class="button button-left-bottom"></span>
-                <span class="button button-right"></span>
-              </div>
-              <div class="phone-screen">
-                <div class="dynamic-island" aria-hidden="true"></div>
-                <div class="iframe-loading" id="iframe-loading" role="status">
-                  <span class="loader"></span>
-                  <span>Loading Open Songbook demo</span>
-                </div>
-                <iframe
-                  id="app-demo-frame"
-                  src="app/?demo=true"
-                  title="Open Songbook app demo"
-                  loading="eager"
-                  allow="clipboard-read; clipboard-write"
-                >
-                  The embedded demo cannot be displayed here.
-                  <a href="app/?demo=true">Open the demo full screen</a>.
-                </iframe>
-              </div>
-            </div>
-          </div>
-          <p class="frame-caption">
-            The phone chrome is part of this web shell. The screen inside is the
-            real Flutter web build served from <code>web-demo/app/</code>.
-          </p>
-        </div>
-      </section>
-
-      <section class="details" id="how-it-works" aria-labelledby="details-title">
-        <div class="section-heading">
-          <p class="eyebrow">Deployment shape</p>
-          <h2 id="details-title">One static site, two runtime layers</h2>
-        </div>
-
-        <div class="detail-grid">
-          <article>
-            <h3>Outer site</h3>
-            <p>
-              The explanatory page is static HTML, CSS, and JavaScript so the
-              product story remains accessible and quick to load.
-            </p>
-          </article>
-          <article>
-            <h3>Embedded app</h3>
-            <p>
-              Flutter owns the document inside the iframe. Its bundle is built
-              with the GitHub Pages base path and copied to <code>web-demo/app/</code>.
-            </p>
-          </article>
-          <article>
-            <h3>Demo limits</h3>
-            <p>
-              Browser upload support depends on the later parser and file-picker
-              tasks. This shell is ready for that app behavior when it lands.
-            </p>
-          </article>
-        </div>
-      </section>
-    </main>
-  </body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Try the real My Lyrics web app with the built-in example book. Read, search, create collections and edit songs."><meta name="theme-color" content="#faf7f0"><title>Try My Lyrics online</title><link rel="icon" href="../web-demo/app/favicon.png"><link rel="preload" href="../assets/fonts/SourceSerif4-Regular.otf.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="../assets/site.css"></head><body><!--
+THESIS: A songbook-shaped documentation site: cover, contents, chapters, usable live example.
+OWN-WORLD: Warm #faf7f0 paper, #fcf9f2 reading surfaces, forest-green rounded actions, Source Serif and Source Sans, fine rules and botanical watercolor.
+STORY: Understand My Lyrics, open the web app, read practical guidance, inspect the unchanged privacy policy.
+FIRST VIEWPORT: Large serif masthead left, authentic guide-song illustration with olive sprigs right, four numbered contents columns below. Mobile stacks cover, illustration and chapter rows.
+FORM: User-selected Laulukirja concept 2; approved reference docs/design-2026-10-17/images/02-laulukirja.png. User-pinned direction supersedes a new roll.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+--><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header site-shell"><a class="wordmark" href="../">My Lyrics</a>
+<nav class="site-nav" aria-label="Main navigation"><a href="../web-demo/" aria-current="page">Try online</a><a href="../guide/">Guide</a><a href="../privacy-policy/">Privacy</a></nav>
+<details class="mobile-menu"><summary>Menu <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></summary><nav class="site-nav" aria-label="Mobile navigation"><a href="../web-demo/" aria-current="page">Try online</a><a href="../guide/">Guide</a><a href="../privacy-policy/">Privacy</a></nav></details>
+<a class="button header-action" href="../web-demo/app/?demo=true">Open full screen <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M10 20H4v-6"/></svg></a></header><main id="main" class="site-shell"><div class="demo-layout"><section class="demo-intro" aria-labelledby="demo-title"><div class="chapter-title"><span class="chapter-number" aria-hidden="true">02</span><h1 id="demo-title">Try online</h1></div><p>Here you can try My Lyrics in your browser. Explore the sample songbook and see how it works.</p><ol class="step-list"><li><span class="step-badge">1</span><div><h2>Read songs</h2><p>Open the sample guidebook with Try example book.</p></div></li><li><span class="step-badge">2</span><div><h2>Search lyrics</h2><p>Go to Search to find a word or phrase.</p></div></li><li><span class="step-badge">3</span><div><h2>Try collections</h2><p>See how sections help organise your songs.</p></div></li><li><span class="step-badge">4</span><div><h2>Make your own</h2><p>Import songbooks, edit lyrics and share your own files.</p></div></li></ol></section><section class="demo-stage" data-started="false" aria-label="My Lyrics web app"><div class="demo-static"><div class="sample-book" role="img" aria-label="Example guide song, Song of Creation, in My Lyrics"><div class="sample-header"><span>My Lyrics</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></svg></div><div class="sample-content"><p class="sample-number">1</p><h2 class="sample-title">Song of Creation</h2><div class="sample-verse"><span>1.</span><p class="sample-lines"><span class="sample-line">This app is empty, it starts off bare,</span><span class="sample-line">The content is yours, create if you dare.</span><span class="sample-line">Fill it with stories, melodies, and more,</span><span class="sample-line">The journey’s just started, what are you waiting for?</span></p></div><div class="sample-verse"><span>2.</span><p class="sample-lines"><span class="sample-line">Compose your own tunes, write lyrics that flow,</span><span class="sample-line">There’s no wrong answer, just give it a go.</span><span class="sample-line">The app is your canvas, your stage, your song,</span><span class="sample-line">Express what you feel, you can’t go wrong.</span></p></div></div><div class="sample-tabs" aria-hidden="true"><span class="sample-tab"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h15v17H5zM2 6v16h15M8 7h9M8 10h9M8 13h6"/></svg><span>Library</span></span><span class="sample-tab"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><span>Search</span></span><span class="sample-tab active"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5c-3-2-7-2-9-1v15c3-1 6-1 9 1 3-2 6-2 9-1V4c-3-1-6-1-9 1Zm0 0v15"/></svg><span>Book</span></span><span class="sample-tab"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 10 6-10 6L2 9l10-6ZM3 13l9 6 9-6M3 17l9 5 9-5"/></svg><span>Collections</span></span><span class="sample-tab"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 3-1 3-3 1 1 3-2 2 2 2-1 3 3 1 1 3h6l1-3 3-1-1-3 2-2-2-2 1-3-3-1-1-3H9Z"/><circle cx="12" cy="12" r="3"/></svg><span>Settings</span></span></div></div><button class="button demo-start" id="start-demo" type="button"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 4 12 8-12 8V4Z"/></svg> Start demo</button></div><div class="demo-live" id="live-demo" hidden><iframe id="app-demo-frame" title="My Lyrics web app" data-src="app/?demo=true" allow="clipboard-read; clipboard-write"></iframe></div><p class="demo-feedback" id="demo-feedback" role="status" aria-live="polite"></p></section></div><section class="demo-note" aria-label="About the browser version"><p>Your library is saved in this browser. Keep an exported backup before clearing browser data or changing devices. Native cloud backup options depend on the platform.</p><a class="inline-link" href="../guide/get-started/">Next: bring your own songbooks <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-5-5 5 5-5 5"/></svg></a><noscript><p>JavaScript is needed to run the app. <a href="app/?demo=true">Open the web app directly</a> or read the guide.</p></noscript></section></main><footer class="site-footer site-shell"><span class="footer-brand">My Lyrics</span><a href="../guide/">User guide</a><a href="../privacy-policy/">Privacy</a><a href="mailto:laurelltm@gmail.com">Contact support</a></footer><script src="demo.js" defer></script></body></html>

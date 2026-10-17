@@ -1,91 +1,59 @@
-# My Lyrics - Book File Support
+# My Lyrics — documentation and web demo
 
-Welcome to the support page for **My Lyrics**. This guide provides instructions on creating and using book files with the My Lyrics app. If you have any questions, issues, or need assistance, please contact us:
+My Lyrics is a songbook reader for your own books and lyrics. Read and search songs, create collections with sections, edit drafts, share books and songs, and export backups.
 
-- **Email**: [laurelltm@gmail.com](mailto:laurelltm@gmail.com)
-- **Privacy Policy**: [privacy-policy](./privacy-policy/)
+- [Open the website](https://laurelltm.github.io/my-lyrics/)
+- [Try the web app](https://laurelltm.github.io/my-lyrics/web-demo/)
+- [Read the user guide](https://laurelltm.github.io/my-lyrics/guide/)
+- [Songbook files and JSON format](https://laurelltm.github.io/my-lyrics/guide/files/)
+- [Privacy policy](https://laurelltm.github.io/my-lyrics/privacy-policy/)
+- [Approved design and visual comparison](https://laurelltm.github.io/my-lyrics/design-comparison/)
 
-We aim to respond to all inquiries within 24-48 hours. Thank you for using My Lyrics!
+Support: [laurelltm@gmail.com](mailto:laurelltm@gmail.com).
 
-## Live Web Demo
+## Documentation website
 
-Open the hosted web demo from the support site:
+The site uses static HTML, shared CSS and small progressive enhancements. Adobe Source Serif 4 and Source Sans 3 are served locally with their OFL licenses. No external font or analytics service is added.
 
-- [My Lyrics live web demo](./web-demo/)
+The warm-paper Laulukirja design was selected from [five proposals](docs/design-2026-10-17/README.md). The approved visual reference is [concept 2](docs/design-2026-10-17/images/02-laulukirja.png). `DESIGN.md` records the implemented design system.
 
-The demo page embeds the Flutter web build in an iPhone-style frame and links to
-the full-screen app under `web-demo/app/`.
-
-To rebuild the demo bundle in this repository from the Flutter app checkout:
+To regenerate the committed pages after changing their source:
 
 ```bash
-./scripts/build_web_demo.sh
+python3 scripts/build_documentation.py
+python3 scripts/verify_documentation.py
 ```
 
-Preview it locally with the same path shape used by GitHub Pages:
+The generator creates the homepage, demo introduction, ten guide chapters and the privacy page. The original privacy paragraphs and date are preserved in `content/privacy.json`. The comparison page is generated separately from verified browser captures:
+
+```bash
+python3 scripts/build_design_comparison.py
+```
+
+Preview the entire website with the GitHub Pages path prefix:
 
 ```bash
 ./scripts/preview_web_demo.sh
 ```
 
-Then open `http://127.0.0.1:5179/my-lyrics/web-demo/`.
+Open `http://127.0.0.1:5179/my-lyrics/`. The server is local to this Mac. Stop it with Ctrl-C.
 
-## What is a Library File?
-A library file is a compressed file with the extension `.zip` or `.books`. It contains multiple book files, each stored as gzipped JSON files. For example, a library file might include:
+## Real web app
 
-- `book1.gz`
-- `book2.gz`
-- `book3.gz`
+`web-demo/app/` contains the Flutter app, separate from the documentation site. The introduction loads it only after **Start demo**; the header also links directly to the full-screen app. There is no decorative phone camera covering the app.
 
-Each book file represents a collection of songs in JSON format, gzipped for compression.
+To rebuild the app bundle from the adjacent Flutter checkout:
 
-## What is a Single Book File?
-A single book file can be compressed with the same extensions (`.zip` or `.books`). Additionally, non-compressed JSON files are also supported.
-
-## JSON File Structure
-A book in JSON format has a specific structure. Here's an example layout:
-
-```json
-{
-  "title": "Title of the book",
-  "coverImage": "base 64 encoded image data",
-  "songs": [
-    {
-      "title": "Title of first song",
-      "number": 1,
-      "verses": [
-        {
-          "number": 1,
-          "sentences": [
-            "First sentence of the first verse",
-            "Second sentence of the first verse"
-          ]
-        }
-      ]
-    }
-  ]
-}
+```bash
+./scripts/build_web_demo.sh
 ```
 
-- **Title**: The title of the book.
-- **Cover Image**: A base64-encoded image representing the book's cover. Optional, but highly recommended.
-- **Songs**: A list of songs within the book.
-  - **Title**: The title of each song.
-  - **Number**: The song's number. Optional.
-  - **Verses**: The verses contained in each song.
-    - **Number**: The verse's number within the song. Optional.
-    - **Sentences**: An array of sentences forming the verse.
+The current bundle is version 2.0.0 from app commit `21bae6d1a2f413a4b1b9c1a32a58c89a118ad0fe`. The website redesign does not change that bundle. Browser content is stored locally; export a backup before clearing browser data.
 
-### Example JSON File
-To better understand the format, refer to [`lorem_ipsum_songbook.json`](./lorem_ipsum_songbook.json) provided with this README.
+## Example files
 
-## How to Create Book Files
-To create a book file for My Lyrics, follow these steps:
+[Download the app’s own English guidebook](downloads/my-lyrics-example.json), or inspect the older [JSON format example](lorem_ipsum_songbook.json). The guide explains `.books`, JSON, song, collection and backup files. Use the app’s export actions to create packaged files; renaming a file does not convert it.
 
-1. Create a JSON file with the structure described above.
-2. Compress the JSON file using a tool like `gzip`.
-3. Rename the compressed file to have a `.books` extension.
-4. Transfer the `.books` file to your iPhone.
-5. Open the file with the My Lyrics app.
+## Publishing
 
-We hope this guide helps you create and manage book files for My Lyrics. If you need additional assistance, don't hesitate to contact us at the email address provided above.
+The existing GitHub Pages workflow publishes the static artifact on a push to `main`. It copies the site, guide, assets, downloads, visual comparison and unchanged web app. Publishing this documentation site is explicitly authorized by the repository owner; native app releases remain a separate process.

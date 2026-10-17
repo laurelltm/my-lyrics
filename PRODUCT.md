@@ -38,4 +38,4 @@ The public product name is My Lyrics. The application's existing logo and real e
 
 ## Open Decisions
 
-The user has not selected the site's future visual direction. Intended audience priorities and the scope of future website localization are not separately confirmed. The proposals label these as design assumptions, rather than product commitments.
+On 2026-10-17 the user explicitly selected concept 2, “Laulukirja — Lämmin paperi · toimitettu julkaisu”, and requested faithful implementation with a visual comparison. Its four-panel image at `docs/design-2026-10-17/images/02-laulukirja.png` is the approved visual authority. Website localization beyond the existing English content remains a separate decision.

@@ -1,0 +1,50 @@
+[
+  {
+    "route": "",
+    "width": 320,
+    "overflow": false,
+    "scrollWidth": 320
+  },
+  {
+    "route": "guide/",
+    "width": 320,
+    "overflow": false,
+    "scrollWidth": 320
+  },
+  {
+    "route": "",
+    "width": 360,
+    "overflow": false,
+    "scrollWidth": 360
+  },
+  {
+    "route": "guide/",
+    "width": 360,
+    "overflow": false,
+    "scrollWidth": 360
+  },
+  {
+    "route": "",
+    "width": 768,
+    "overflow": false,
+    "scrollWidth": 768
+  },
+  {
+    "route": "guide/",
+    "width": 768,
+    "overflow": false,
+    "scrollWidth": 768
+  },
+  {
+    "route": "",
+    "width": 1280,
+    "overflow": false,
+    "scrollWidth": 1280
+  },
+  {
+    "route": "guide/",
+    "width": 1280,
+    "overflow": false,
+    "scrollWidth": 1280
+  }
+]

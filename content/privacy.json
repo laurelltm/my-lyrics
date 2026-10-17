@@ -1,0 +1,34 @@
+{
+  "effectiveDate": "May 14, 2026",
+  "introduction": "My Lyrics is designed as a local songbook reader. We value your privacy\n        and keep the app simple: it does not collect, store, transmit, or share\n        personal information.",
+  "sections": [
+    {
+      "title": "Information We Collect",
+      "html": "We do not collect personal information from users. The app does not\n        require an account, and the app does not access, collect, store, or\n        share user data with us."
+    },
+    {
+      "title": "Your Songbook Content",
+      "html": "Songbook files that you import are used by the app so it can display\n        your lyrics and books. That content remains under your control on your\n        device or in your browser's local storage when using the web demo."
+    },
+    {
+      "title": "Information We Share",
+      "html": "Since we do not collect personal information, we do not share personal\n        information with third parties."
+    },
+    {
+      "title": "Cookies and Tracking",
+      "html": "The My Lyrics app does not use cookies or tracking technologies. The\n        GitHub Pages support website is a static site and does not add analytics\n        or advertising trackers."
+    },
+    {
+      "title": "Third-Party Services",
+      "html": "The app does not use third-party services or software that collect user\n        information for us. The support website and web demo are hosted on\n        GitHub Pages, which may process basic technical request data according\n        to GitHub's own policies."
+    },
+    {
+      "title": "Changes to This Privacy Policy",
+      "html": "We may update this Privacy Policy from time to time. If we make changes,\n        we will update the effective date on this page."
+    },
+    {
+      "title": "Contact Us",
+      "html": "If you have questions about this Privacy Policy, contact us at\n        <a href=\"mailto:laurelltm@gmail.com\">laurelltm@gmail.com</a>."
+    }
+  ]
+}

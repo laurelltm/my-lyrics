@@ -1,0 +1,18 @@
+{
+  "static_pages": 14,
+  "generator_idempotent": true,
+  "legal_and_app_unchanged": true,
+  "browser_checks": [
+    "mobile menu opens and navigates to Guide",
+    "guide contents opens and navigates to Books and files",
+    "copy example reports success",
+    "iframe has no src before Start demo",
+    "Start demo launches real Flutter app",
+    "Try example book opens Song of Creation",
+    "all12main viewport captures loaded fonts/images and no horizontal overflow",
+    "additional320/360/768/1280 widths have no horizontal overflow"
+  ],
+  "detector": "regex fallback, no findings; computed contrast and selector checks unavailable",
+  "review": "all three material fixes scored resolved; ship at fix-list scope",
+  "captured_images": "unaltered browser JPEGs, provenance embedded"
+}

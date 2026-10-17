@@ -1,0 +1,41 @@
+{
+  "produce": [
+    {
+      "id": "botanical-sprig",
+      "source_crop": "docs/design-2026-10-17/images/02-laulukirja.png: top-left HOME panel botanical plants beside app preview (full comp provided as reference)",
+      "output_path": "assets/images/botanical-sprig.png",
+      "strategy": "Faithful native image_gen regeneration of standalone transparent botanical sprig from approved comp.",
+      "prompt_used": "Use case: illustration-story\nAsset type: reusable transparent botanical illustration for a warm paper editorial songbook website.\nInput image: the provided approved Laulukirja website comp is a visual reference only. Refer specifically to the pale botanical leafy plants flanking the small app preview in the top-left HOME panel. Generate a clean standalone asset from that visual style; do not reproduce the website, screen, text, or paper background.\nPrimary request: one single narrow gently curved olive/sage leafy sprig, upright, with 8–12 varied elongated pointed leaves attached along a fine warm brown stem, similar silhouette and material to the reference plants. Gentle organic variation in leaf direction and size; largest leaves near the lower middle, small tender leaves toward the upper tip. Entire plant visible, from its small bare cut stem base to the final leaf tip. A restrained realistic botanical illustration in fine ink and transparent watercolor, softly layered pale olive green, muted sage, a little gray-green and warm ochre shading. Fine leaf veins and delicate edges, no hard black outlines. High quality detailed hand-painted botanical plate, understated and elegant, suited to display around 120–180 pixels tall while remaining crisp.\nComposition/framing: portrait canvas, one sprig centered, narrow silhouette about one third to one half the canvas width, plant fills about 88 percent of the canvas height with safe space around every leaf and the cut stem. Slightly curved main stem, viewed straight-on. True transparent background including all open gaps between leaves. No cast shadow, paper texture, container, pot, decorative frame, letters, labels, text, watermark or extra objects. Preserve the reference's quiet pale olive palette and botanical realism. Do not add flowers, fruit or berries.",
+      "prompt_sidecar": "assets/images/botanical-sprig.png.json",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "format": "PNG",
+      "transparency": "True RGBA alpha; 82.13% of pixels fully transparent; 13.49% near opaque; open leaf gaps transparent.",
+      "deviations": "One reusable 12-leaf sprig; approved implementation mirrors it in CSS to compose both plants. No layout, shadows, borders or typography baked into PNG.",
+      "qa_status": "accepted",
+      "qa_notes": "Compared full generated illustration to approved comp: restrained pale olive/sage botanical watercolor, warm brown thin stem, fully visible leaves and stem, no text, no frame. Tool preview may display unused RGB under alpha as a dark halo; alpha channel checks confirm clear exterior and inter-leaf gaps. Verify final composed scale and placement in site visual QA."
+    }
+  ],
+  "direct": [],
+  "semantic": [
+    {
+      "id": "preview-botanical-composition",
+      "implementation": "Use two decorative img elements referencing botanical-sprig.png behind the semantic app preview; set alt=\"\" and aria-hidden=\"true\". Position with CSS, reflect one with scaleX(-1), and give each its own small rotation and height. App card, radius, border, shadow, UI controls and typography remain HTML/CSS/SVG.",
+      "notes": "Reference app preview stands in front of the plant stems. Prevent botanical images from intercepting pointer input. Adjust cropping with container overflow if needed; avoid raster transforms in the asset.",
+      "qa_status": "accepted"
+    }
+  ],
+  "execution_order": [
+    "Regenerate standalone sprig from approved reference",
+    "Inspect image and RGBA alpha",
+    "Copy into assets/images and embed exact prompt",
+    "Parent composes with CSS and verifies full site against selected comp"
+  ],
+  "blockers": [],
+  "assumptions": [
+    "One sprig can be mirrored to fulfill both botanical flanks, as parent requested.",
+    "Generated original remains untouched in the built-in image tool destination."
+  ]
+}

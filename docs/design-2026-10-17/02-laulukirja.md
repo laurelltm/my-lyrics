@@ -1,10 +1,18 @@
 # 2. Laulukirja — toimitettu julkaisu
 
-[Vertailuun](README.md) · Rauhallisin lukukokemus · Ei toteutettu
+[Vertailuun](README.md) · **Käyttäjän valitsema ja toteutettu suunta · 17.10.2026**
 
 ![2. Laulukirja — toimitettu julkaisu — etusivu, web-demo, ohje ja tietosuoja](images/02-laulukirja.png)
 
 [Avaa kuva täysikokoisena](images/02-laulukirja.png) · [Vertaa kuvia GitHub Pagesissa](https://laurelltm.github.io/my-lyrics/design-previews/)
+
+## Toteutus
+
+[Kuvallinen toteutusvertailu Markdownina](toteutusvertailu.md)
+
+[Avaa toteutettu sivusto](https://laurelltm.github.io/my-lyrics/) · [Luonnos ja toteutus kuvina rinnakkain](https://laurelltm.github.io/my-lyrics/design-comparison/)
+
+Hyväksytty kuva on toteutuksen visuaalinen auktoriteetti. Alla oleva alkuperäinen tekstiehdotus on suunnitteluhistoriaa; lopullinen järjestelmä on kirjattu projektin DESIGN.md-tiedostoon. Tietosuojateksti on säilytetty kokonaisena ja ohje on laajennettu kymmeneen lukuun.
 
 ## Idea
 

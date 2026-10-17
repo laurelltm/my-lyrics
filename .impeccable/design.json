@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T10:27:11.204357+00:00",
+  "title": "Design System: My Lyrics documentation",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#faf7f0",
+        "tonalRamp": [
+          "oklch(15% 0.00980 87.47)",
+          "oklch(25% 0.00980 87.47)",
+          "oklch(35% 0.00980 87.47)",
+          "oklch(45% 0.00980 87.47)",
+          "oklch(55% 0.00980 87.47)",
+          "oklch(65% 0.00980 87.47)",
+          "oklch(80% 0.00980 87.47)",
+          "oklch(95% 0.00980 87.47)"
+        ]
+      },
+      "reading": {
+        "role": "neutral",
+        "displayName": "Reading Paper",
+        "canonical": "#fcf9f2",
+        "tonalRamp": [
+          "oklch(15% 0.00979 87.47)",
+          "oklch(25% 0.00979 87.47)",
+          "oklch(35% 0.00979 87.47)",
+          "oklch(45% 0.00979 87.47)",
+          "oklch(55% 0.00979 87.47)",
+          "oklch(65% 0.00979 87.47)",
+          "oklch(80% 0.00979 87.47)",
+          "oklch(95% 0.00979 87.47)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Publication Ink",
+        "canonical": "#23231e",
+        "tonalRamp": [
+          "oklch(15% 0.00914 107.03)",
+          "oklch(25% 0.00914 107.03)",
+          "oklch(35% 0.00914 107.03)",
+          "oklch(45% 0.00914 107.03)",
+          "oklch(55% 0.00914 107.03)",
+          "oklch(65% 0.00914 107.03)",
+          "oklch(80% 0.00914 107.03)",
+          "oklch(95% 0.00914 107.03)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Brown",
+        "canonical": "#655f53",
+        "tonalRamp": [
+          "oklch(15% 0.02013 84.58)",
+          "oklch(25% 0.02013 84.58)",
+          "oklch(35% 0.02013 84.58)",
+          "oklch(45% 0.02013 84.58)",
+          "oklch(55% 0.02013 84.58)",
+          "oklch(65% 0.02013 84.58)",
+          "oklch(80% 0.02013 84.58)",
+          "oklch(95% 0.02013 84.58)"
+        ]
+      },
+      "forest": {
+        "role": "primary",
+        "displayName": "Forest",
+        "canonical": "#2f604b",
+        "tonalRamp": [
+          "oklch(15% 0.06425 163.89)",
+          "oklch(25% 0.06425 163.89)",
+          "oklch(35% 0.06425 163.89)",
+          "oklch(45% 0.06425 163.89)",
+          "oklch(55% 0.06425 163.89)",
+          "oklch(65% 0.06425 163.89)",
+          "oklch(80% 0.06425 163.89)",
+          "oklch(95% 0.06425 163.89)"
+        ]
+      },
+      "forest-hover": {
+        "role": "primary",
+        "displayName": "Deep Forest",
+        "canonical": "#214c39",
+        "tonalRamp": [
+          "oklch(15% 0.05860 162.67)",
+          "oklch(25% 0.05860 162.67)",
+          "oklch(35% 0.05860 162.67)",
+          "oklch(45% 0.05860 162.67)",
+          "oklch(55% 0.05860 162.67)",
+          "oklch(65% 0.05860 162.67)",
+          "oklch(80% 0.05860 162.67)",
+          "oklch(95% 0.05860 162.67)"
+        ]
+      },
+      "sage": {
+        "role": "primary",
+        "displayName": "Sage",
+        "canonical": "#d8e2cf",
+        "tonalRamp": [
+          "oklch(15% 0.02764 129.83)",
+          "oklch(25% 0.02764 129.83)",
+          "oklch(35% 0.02764 129.83)",
+          "oklch(45% 0.02764 129.83)",
+          "oklch(55% 0.02764 129.83)",
+          "oklch(65% 0.02764 129.83)",
+          "oklch(80% 0.02764 129.83)",
+          "oklch(95% 0.02764 129.83)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Structural Rule",
+        "canonical": "#c7c3b9",
+        "tonalRamp": [
+          "oklch(15% 0.01449 88.70)",
+          "oklch(25% 0.01449 88.70)",
+          "oklch(35% 0.01449 88.70)",
+          "oklch(45% 0.01449 88.70)",
+          "oklch(55% 0.01449 88.70)",
+          "oklch(65% 0.01449 88.70)",
+          "oklch(80% 0.01449 88.70)",
+          "oklch(95% 0.01449 88.70)"
+        ]
+      },
+      "soft-line": {
+        "role": "neutral",
+        "displayName": "Quiet Rule",
+        "canonical": "#e3ded2",
+        "tonalRamp": [
+          "oklch(15% 0.01703 88.01)",
+          "oklch(25% 0.01703 88.01)",
+          "oklch(35% 0.01703 88.01)",
+          "oklch(45% 0.01703 88.01)",
+          "oklch(55% 0.01703 88.01)",
+          "oklch(65% 0.01703 88.01)",
+          "oklch(80% 0.01703 88.01)",
+          "oklch(95% 0.01703 88.01)"
+        ]
+      },
+      "action-text": {
+        "role": "neutral",
+        "displayName": "Action White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(25% 0.00000 0.00)",
+          "oklch(35% 0.00000 0.00)",
+          "oklch(45% 0.00000 0.00)",
+          "oklch(55% 0.00000 0.00)",
+          "oklch(65% 0.00000 0.00)",
+          "oklch(80% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "code-paper": {
+        "role": "neutral",
+        "displayName": "Code Paper",
+        "canonical": "#f7f2e9",
+        "tonalRamp": [
+          "oklch(15% 0.01310 82.40)",
+          "oklch(25% 0.01310 82.40)",
+          "oklch(35% 0.01310 82.40)",
+          "oklch(45% 0.01310 82.40)",
+          "oklch(55% 0.01310 82.40)",
+          "oklch(65% 0.01310 82.40)",
+          "oklch(80% 0.01310 82.40)",
+          "oklch(95% 0.01310 82.40)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Cover masthead",
+        "purpose": "Homepage name; mobile uses the documented smaller fluid scale."
+      },
+      "headline": {
+        "displayName": "Page headline",
+        "purpose": "Base serif headline; chapter, guide and privacy surfaces apply their local scale."
+      },
+      "title": {
+        "displayName": "Contents title",
+        "purpose": "Repeated chapter links; compact and mobile sizes are documented in Layout."
+      },
+      "body": {
+        "displayName": "Publication body",
+        "purpose": "Default serif prose; surface-specific reading measures remain in source."
+      },
+      "label": {
+        "displayName": "Navigation label",
+        "purpose": "Sans header navigation and supporting controls."
+      },
+      "action": {
+        "displayName": "Action label",
+        "purpose": "Semibold sans button text."
+      },
+      "code": {
+        "displayName": "JSON example",
+        "purpose": "Platform monospace for downloadable book format examples."
+      }
+    },
+    "shadows": [
+      {
+        "name": "reading-panel",
+        "value": "0 5px 15px #33281820",
+        "purpose": "Soft page separation, shared by static and live demo panels."
+      },
+      {
+        "name": "mobile-menu",
+        "value": "0 8px 16px #33281812",
+        "purpose": "Quiet shadow beneath the native navigation disclosure overlay."
+      },
+      {
+        "name": "demo-launch",
+        "value": "0 4px 16px #33281818",
+        "purpose": "Separate the Start demo control from the static song panel."
+      }
+    ],
+    "motion": [
+      {
+        "name": "action-hover",
+        "value": "background-color 160ms ease-out",
+        "purpose": "Filled action hover; disabled under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "680px"
+      },
+      {
+        "name": "editorial-spread-min",
+        "value": "681px"
+      },
+      {
+        "name": "compact-spread-max",
+        "value": "900px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Forest action used to open the web version or launch the demo.",
+      "html": "<a class=\"ds-primary\" href=\"#web-version\">Open web version <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h15m-5-5 5 5-5 5\"/></svg></a>",
+      "css": ".ds-primary{display:inline-flex;justify-content:center;align-items:center;gap:12px;min-height:44px;padding:10px 20px;border:1px solid transparent;border-radius:16px;font:600 clamp(14px,1.2vw,18px)/1.25 'Source Sans',Arial,sans-serif;text-decoration:none;cursor:pointer;transition:background-color 160ms ease-out;background:var(--forest,#2f604b);color:white}.ds-primary:hover{background:var(--forest-hover,#214c39)}.ds-primary:focus-visible{outline:3px solid var(--forest,#2f604b);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet outlined alternative using the same action geometry.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Read the guide</button>",
+      "css": ".ds-secondary{display:inline-flex;justify-content:center;align-items:center;gap:12px;min-height:44px;padding:10px 20px;border:1px solid transparent;border-radius:16px;font:600 clamp(14px,1.2vw,18px)/1.25 'Source Sans',Arial,sans-serif;text-decoration:none;cursor:pointer;transition:background-color 160ms ease-out;border-color:var(--line,#c7c3b9);color:var(--forest,#2f604b);background:transparent}.ds-secondary:hover{background:var(--sage,#d8e2cf)}.ds-secondary:focus-visible{outline:3px solid var(--forest,#2f604b);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}"
+    },
+    {
+      "name": "Header navigation",
+      "kind": "nav",
+      "description": "Plain sans links with a short current-page rule.",
+      "html": "<nav class=\"ds-header-nav\" aria-label=\"Main navigation\"><a href=\"#demo\">Try online</a><a href=\"#guide\" aria-current=\"page\">Guide</a><a href=\"#privacy\">Privacy</a></nav>",
+      "css": ".ds-header-nav{display:flex;gap:clamp(18px,2.4vw,36px);font:400 clamp(14px,1.15vw,17px)/1.55 'Source Sans',Arial,sans-serif}.ds-header-nav a{color:var(--ink,#23231e);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;position:relative}.ds-header-nav a[aria-current=page]::after{content:'';position:absolute;inset:auto 0 4px;height:2px;background:var(--forest,#2f604b)}.ds-header-nav a:hover{text-decoration-thickness:2px}.ds-header-nav a:focus-visible{outline:3px solid var(--forest,#2f604b);outline-offset:5px}"
+    },
+    {
+      "name": "Chapter navigation",
+      "kind": "nav",
+      "refersTo": "guide-navigation-active",
+      "description": "Numbered serif chapter rail; current location is a square forest row.",
+      "html": "<nav class=\"ds-chapters\" aria-label=\"Guide chapters\"><a href=\"#start\"><span>01</span>Get started</a><a href=\"#reading\" aria-current=\"page\"><span>02</span>Reading and navigation</a><a href=\"#files\"><span>03</span>Books and files</a></nav>",
+      "css": ".ds-chapters{display:flex;flex-direction:column;border-right:1px solid var(--soft-line,#e3ded2);font-family:'Source Serif',Georgia,serif;max-width:300px}.ds-chapters a{display:grid;grid-template-columns:22px 1fr;gap:6px;min-height:42px;padding:10px 12px;color:var(--ink,#23231e);text-decoration:none;font-size:clamp(12px,1.15vw,16px);line-height:1.45}.ds-chapters a[aria-current=page]{color:white;background:var(--forest,#2f604b)}.ds-chapters a:not([aria-current]):hover{background:var(--sage,#d8e2cf)}.ds-chapters span{font-size:.9em;line-height:1.65}.ds-chapters a:focus-visible{outline:3px solid var(--forest,#2f604b);outline-offset:5px}"
+    },
+    {
+      "name": "Numbered instruction",
+      "kind": "custom",
+      "refersTo": "step-badge",
+      "description": "Sage circular number introduces a serif heading and practical instruction.",
+      "html": "<div class=\"ds-step\"><span class=\"ds-badge\">1</span><div><h2>Open a book</h2><p>Use Library to open a songbook. Book returns to your current book.</p></div></div>",
+      "css": ".ds-step{display:grid;grid-template-columns:32px 1fr;gap:12px;align-items:start;font-family:'Source Serif',Georgia,serif;color:var(--ink,#23231e);max-width:540px}.ds-badge{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--sage,#d8e2cf);color:#2f533e;font:600 15px/1 'Source Sans',Arial,sans-serif}.ds-step h2{font-size:24px;line-height:1.15;font-weight:600;letter-spacing:-.025em;margin:2px 0 5px}.ds-step p{font-size:18px;line-height:1.45;margin:0}"
+    },
+    {
+      "name": "Reading panel",
+      "kind": "card",
+      "refersTo": "reading-panel",
+      "description": "A softly raised page of the real guide song, without device hardware.",
+      "html": "<a class=\"ds-reading\" href=\"#web-app\" aria-label=\"Open the My Lyrics web app\"><div class=\"ds-reading-head\">My Lyrics</div><div class=\"ds-reading-content\"><p class=\"ds-song-number\">1</p><h2>Song of Creation</h2><div class=\"ds-verse\"><span>1.</span><p>This app is empty, it starts off bare,<br>The content is yours, create if you dare.</p></div></div><div class=\"ds-reading-foot\">Library · Search · Book · Collections · Settings</div></a>",
+      "css": ".ds-reading{display:flex;flex-direction:column;width:100%;max-width:300px;min-height:350px;border-radius:10px;border:1px solid #d8d1c4;background:var(--reading,#fcf9f2);box-shadow:0 5px 15px #33281820;overflow:hidden;color:#24231e;text-decoration:none;font-family:'Source Serif',Georgia,serif}.ds-reading-head{padding:10px 12px;border-bottom:1px solid #e8e2d8;font-size:20px;line-height:1.2}.ds-reading-content{padding:18px;flex:1;font-size:13px;line-height:1.4}.ds-song-number{text-align:center;margin:0 0 3px}.ds-reading h2{text-align:center;font-size:1.34em;font-weight:600;margin:0 0 20px}.ds-verse{display:grid;grid-template-columns:10px 1fr;gap:8px}.ds-verse p{margin:0}.ds-reading-foot{border-top:1px solid #e8e2d8;padding:12px 8px;color:#53544c;text-align:center;font:9px/1.2 'Source Sans',Arial,sans-serif}.ds-reading:hover{text-decoration:none}.ds-reading:focus-visible{outline:3px solid var(--forest,#2f604b);outline-offset:8px}"
+    },
+    {
+      "name": "JSON example",
+      "kind": "custom",
+      "refersTo": "code-panel",
+      "description": "Warm inset with preserved indentation and its own scrolling.",
+      "html": "<div class=\"ds-codebox\"><button class=\"ds-copy\" type=\"button\">Copy</button><pre tabindex=\"0\"><code>{\n  <span class=\"ds-key\">\"title\"</span>: <span class=\"ds-string\">\"My Lyrics\"</span>,\n  <span class=\"ds-key\">\"songs\"</span>: [\n    { <span class=\"ds-key\">\"number\"</span>: <span class=\"ds-number\">1</span>, <span class=\"ds-key\">\"title\"</span>: <span class=\"ds-string\">\"Song of Creation\"</span> }\n  ]\n}</code></pre></div>",
+      "css": ".ds-codebox{position:relative;max-width:360px}.ds-codebox pre{margin:0;border:1px solid var(--soft-line,#e3ded2);border-radius:6px;background:var(--code-paper,#f7f2e9);padding:36px 12px 16px;overflow:auto;tab-size:2;font:12px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;white-space:pre;color:var(--ink,#23231e);max-height:420px}.ds-copy{position:absolute;top:5px;right:5px;min-height:28px;background:var(--reading,#fcf9f2);color:var(--forest,#2f604b);border:0;border-radius:4px;padding:4px 7px;font:12px 'Source Sans',Arial,sans-serif;cursor:pointer}.ds-key{color:#a34e42}.ds-string{color:#665b46}.ds-number{color:#345a45}.ds-copy:focus-visible{outline:3px solid var(--forest,#2f604b);outline-offset:5px}.ds-codebox pre:focus-visible{outline:3px solid var(--forest,#2f604b);outline-offset:5px}"
+    },
+    {
+      "name": "Example download",
+      "kind": "button",
+      "description": "A quiet bordered file link beneath the JSON example.",
+      "html": "<a class=\"ds-download\" href=\"#example\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5\"/></svg>Download example songbook</a>",
+      "css": ".ds-download{display:flex;gap:8px;align-items:center;border:1px solid var(--soft-line,#e3ded2);border-radius:8px;padding:10px;color:var(--forest,#2f604b);font:16px/1.55 'Source Serif',Georgia,serif;min-height:44px;text-decoration:none;max-width:360px}.ds-download:hover{background:var(--sage,#d8e2cf)}.ds-download:focus-visible{outline:3px solid var(--forest,#2f604b);outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Laulukirja — the warm-paper songbook",
+    "overview": "This website reads as a small edited publication: a confident serif cover, numbered contents, useful chapters and a quiet legal document. Warm paper, botanical watercolor and restrained green actions give the practical material a familiar, literary character. The user selected concept 2 in `docs/design-2026-10-17/images/02-laulukirja.png`; that image remains the visual authority.\n\nThis system covers the homepage, demo introduction, ten guide pages and privacy policy. It describes the built documentation site, not the independent Flutter application inside `web-demo/app/`. Its source of truth is `assets/site.css` and the generated pages from `scripts/build_documentation.py`; the surface brief owns page-specific composition.",
+    "keyCharacteristics": [
+      "Oversized serif masthead, ordinary sentence case and numbered chapters.",
+      "Pale paper fields, fine rules and sparse forest-green emphasis.",
+      "A real guide-song reading illustration framed by watercolor sprigs.",
+      "Spacious full-size reading layouts, an intentional compact reference spread and stacked mobile pages."
+    ],
+    "rules": [
+      {
+        "name": "The Paper First Rule",
+        "body": "Large page regions stay on paper; color blocks identify an action or current chapter rather than enclosing every section.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Serif carries the publication and its reading content; sans identifies controls. Do not turn the whole site into an application toolbar.",
+        "section": "typography"
+      },
+      {
+        "name": "The Compact Spread Rule",
+        "body": "Between 681px and 900px, preserve the explicitly selected reference composition as a distinct density mode: the home contents headings are 16px; the guide is an intentionally small three-column spread with 11–12px article text and compressed spacing. The 744px reference captures are the acceptance evidence for this mode. These values are not the general reading scale for new pages or wider/mobile layouts; inspect legibility separately when extending this range.",
+        "section": "layout"
+      },
+      {
+        "name": "The Reading Surface Rule",
+        "body": "Preserve the light physical separation of the song panel; do not spread its shadow to every content section.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the user-selected Laulukirja reference and the self-hosted serif/sans pairing.",
+      "**Do** use thin rules, numbered structure and paper fields to organise reading.",
+      "**Do** keep decorative foliage recognizable, within page width and clear of text.",
+      "**Do** retain explicit demo launch, visible keyboard focus and native mobile disclosures.",
+      "**Do** preserve the real guide example, all privacy text and its date when restyling."
+    ],
+    "donts": [
+      "**Don't** inherit this website's typography or colors into the independent Flutter app.",
+      "**Don't** replace the simple reading surface with a fake phone camera or hardware frame.",
+      "**Don't** promote the compact reference spread's small guide type into the default body scale.",
+      "**Don't** introduce external font requests, tracking or a parent-page scroll lock.",
+      "**Don't** replace the established inline SVG icon system with glyph icons or add decorative eyebrows and hard offset shadows."
+    ]
+  }
+}

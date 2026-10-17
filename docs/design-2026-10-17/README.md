@@ -1,8 +1,12 @@
 # My Lyrics — viisi vaihtoehtoa sivuston käyttöliittymäksi
 
-17.10.2026 · Impeccable / shape · **suunnitelma, ei toteutuspäätös**
+17.10.2026 · Impeccable / shape · **vaihtoehto 2 valittu ja toteutettu**
 
 Rajaus: dokumentaatiosivuston etusivu, web-demon esittely, käyttö- ja tiedostomuoto-ohje sekä tietosuojasivu. Flutter-sovelluksen sisäistä käyttöliittymää ei muuteta näiden ehdotusten perusteella. Jokainen vaihtoehto muodostaa kokonaisen sivuston; kyse ei ole viidestä väriversiosta samasta pohjasta.
+
+[Avaa toteutettu sivusto](https://laurelltm.github.io/my-lyrics/) · [Katso hyväksytyn luonnoksen ja toteutuksen kuvavertailu](https://laurelltm.github.io/my-lyrics/design-comparison/)
+
+Alkuperäiset viisi vaihtoehtoa säilyvät alla suunnitteluhistoriana.
 
 ## Katso ehdotukset kuvina
 

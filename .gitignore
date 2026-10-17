@@ -1,2 +1,7 @@
 .DS_Store
 .local-pages-preview/
+
+# Local browser evidence; published copies live under design-comparison/images.
+.impeccable/review/*.png
+
+__pycache__/
